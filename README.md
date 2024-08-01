@@ -19,13 +19,13 @@ SilenceCutter is a Python application that automatically detects and removes sil
 ## Installation
 
 ```bash
-pip install moviepy pydub
+pip install silencecut-py
 ```
 
 ## Usage
 
 ```bash
-python silence_cutter.py --input video.mp4 --output video_silence_removed.mp4
+silencecut_py --input project/silencecut-py/example_input.mp4 --output output.mp4
 ```
 
 ## Parameters
@@ -39,10 +39,3 @@ python silence_cutter.py --input video.mp4 --output video_silence_removed.mp4
 - `--temp_dir`: Directory where temporary files will be saved
 - `--verbose`: Show detailed outputs
 
-## Example
-
-```bash
-python silence_cutter.py --input ./example_input.mp4 --output ./example_output.mp4
-```
-
-## License

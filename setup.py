@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="silence_cutpy",
+    name="silencecut_py",
     version="1.0",
     author="Alameddin Çelik",
     author_email="alameddinc@gmail.com",
@@ -16,12 +16,11 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "silence_cutter=silence_cutter.main:main",
+            "silencecut_py = silence_cutter.main:main",
         ],
     },
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',

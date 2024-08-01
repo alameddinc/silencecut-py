@@ -19,13 +19,13 @@ SilenceCutter, video dosyalarındaki sessiz kısımları otomatik olarak tespit 
 ## Kurulum
 
 ```bash
-pip install moviepy pydub
+pip install silencecut-py
 ```
 
 ## Kullanım
 
 ```bash
-python silence_cutter.py --input video.mp4 --output video_silence_removed.mp4
+silencecut_py --input project/silencecut-py/example_input.mp4 --output output.mp4
 ```
 
 ## Parametreler
@@ -43,7 +43,3 @@ python silence_cutter.py --input video.mp4 --output video_silence_removed.mp4
 ```bash
 python silence_cutter.py --input video.mp4 --output video_silence_removed.mp4 --silence_threshold -30 --min_silence_length 350 --padding_duration 100 --max_gap 100 --temp_dir temp
 ```
-
-## Lisans
-
-Bu proje MIT lisansı ile lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasına bakabilirsiniz.
