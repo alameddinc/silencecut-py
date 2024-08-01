@@ -19,13 +19,13 @@ SilenceCutter is a Python application that automatically detects and removes sil
 ## Installation
 
 ```bash
-pip install silencecut-py
+pip install silencecutpy
 ```
 
 ## Usage
 
 ```bash
-silencecut_py --input project/silencecut-py/example_input.mp4 --output output.mp4
+silencecutpy --input project/silencecut-py/example_input.mp4 --output output.mp4
 ```
 
 ## Parameters

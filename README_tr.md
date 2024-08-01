@@ -19,13 +19,13 @@ SilenceCutter, video dosyalarındaki sessiz kısımları otomatik olarak tespit 
 ## Kurulum
 
 ```bash
-pip install silencecut-py
+pip install silencecutpy
 ```
 
 ## Kullanım
 
 ```bash
-silencecut_py --input project/silencecut-py/example_input.mp4 --output output.mp4
+silencecutpy --input project/silencecut-py/example_input.mp4 --output output.mp4
 ```
 
 ## Parametreler

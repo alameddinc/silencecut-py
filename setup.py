@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="silencecut_py",
-    version="1.1",
+    name="silencecutpy",
+    version="1.2",
     author="Alameddin Çelik",
     author_email="alameddinc@gmail.com",
     description="A tool to remove silent parts from video files",
@@ -16,7 +16,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "silencecut_py = silence_cutter.main:main",
+            "silencecutpy = silence_cutter.main:main",
         ],
     },
     classifiers=[
