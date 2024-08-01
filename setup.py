@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="silencecut_py",
-    version="1.0",
+    version="1.1",
     author="Alameddin Çelik",
     author_email="alameddinc@gmail.com",
     description="A tool to remove silent parts from video files",
